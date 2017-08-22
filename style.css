@@ -61,12 +61,16 @@ button:hover{
 	cursor: pointer;
 }
 
-.grey-comment{
+.comments p{
+	border-radius: 10px;
+}
+
+.comments p:nth-child(even){
 	background-color: grey;
 
 }
 
-.blue-comment{
+.comments p:nth-child(odd){
 	background-color: #00ccff;
 }
 
