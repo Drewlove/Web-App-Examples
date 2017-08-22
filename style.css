@@ -8,9 +8,12 @@ body{
 }
 
 .flex-box{
-	align-items: center;
 	display: flex; 
 	margin-left: 10px;
+}
+
+header.flex-box{
+	align-items: center;
 }
 
 .flex-item:nth-child(1){
@@ -22,28 +25,16 @@ body{
 	margin-left: 10%;
 }
 
-section.comment-input.flex-item{
-	margin-top: -110px;
-	font-size: 1.5em;
-}
-
 section.comments.flex-item{
 	width: 50%;
 	margin-right: 10px;
 }
 
-
-main .comments{
+main .comment-input{
 	margin-top: 15px;
 }
 
-main .comments p{
-	padding: 10px;
-	margin-bottom: 10px;
-}
-
 input{
-	margin-top: 10px;
 	width: 200px;
 	height: 35px;
 }
@@ -61,13 +52,18 @@ button:hover{
 	cursor: pointer;
 }
 
-.comments p{
+main .comments{
+	margin-top: 15px;
+}
+
+main .comments p{
+	padding: 10px;
+	margin-bottom: 10px;
 	border-radius: 10px;
 }
 
 .comments p:nth-child(even){
 	background-color: grey;
-
 }
 
 .comments p:nth-child(odd){
